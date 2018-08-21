@@ -29,3 +29,5 @@ class Book
     @title
   end
 end
+
+puts $non_major_words

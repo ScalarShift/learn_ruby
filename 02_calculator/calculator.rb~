@@ -23,5 +23,8 @@ def factorial(number)
     return 1
   end
   number *= factorial(number - 1)
+  puts number
   return number
 end
+
+puts factorial(10)

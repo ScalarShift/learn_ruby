@@ -18,6 +18,6 @@ class Timer
     @second_string = format("%02d", @seconds)
     @minute_string = format("%02d", @minutes)
     @hour_string = format("%02d", @hours)
-    return "#{@hour_string}:#{@minute_string}:#{@second_string}"
+    return "#{hour_string}:#{minute_string}:#{second_string}"
   end
 end

@@ -30,3 +30,5 @@ def translate(message)
   }
   return message.join(" ")
 end
+
+puts translate("quick fox jumps")
